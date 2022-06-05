@@ -1,0 +1,110 @@
+div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.contactos {
+  flex-direction: column;
+  max-width: 30vw;
+  align-items: flex-start;
+  margin-right: 0%;
+  padding-top: 0%;
+}
+
+.borde {
+  border: solid 1px #bec1bb;
+  width: 100%;
+}
+
+.usuario {
+  flex-direction: row;
+  width: 30%;
+  align-items: center;
+  padding-bottom: 5%;
+  gap: 10px;
+}
+
+.usuario img {
+  width: 70%;
+  border-radius: 50%;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+.estado {
+  flex-direction: column;
+  margin-left: 10%;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+.estado h3 {
+  padding: 0px;
+  margin: 0px;
+  white-space: nowrap;
+}
+
+.estado p {
+  padding: 0px;
+  margin: 0px;
+  white-space: nowrap;
+}
+
+.iconos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #444749;
+  margin: 2px;
+  padding: 2px;
+}
+
+.iconos i {
+  margin-right: 10px;
+}
+
+.boton {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin-bottom: 5%;
+}
+
+.nuevo_chat {
+  display: flex;
+  flex-direction: column;
+  margin-top: 5%;
+  justify-content: center;
+  width: 50%;
+}
+
+.nuevo_chat input {
+  background-color: #A491D2;
+  color: white;
+  padding: 15%;
+  font-size: larger;
+  border: none;
+}
+
+.seccion_principal {
+  background-color: #e8ebe4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 70%;
+}
+
+.seccion_principal img {
+  width: 20%;
+  padding-top: 10%;
+}
+
+.seccion_principal p {
+  padding-left: 20%;
+  padding-right: 20%;
+  text-align: center;
+}
